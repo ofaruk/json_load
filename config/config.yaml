@@ -1,0 +1,16 @@
+--- 
+credential_path: /path-to/application_default_credentials.json
+bq_project_id: <project-id>
+dataset_location: EU
+dataset_name: poc_ds_1
+tables: 
+  - 
+    name: trade
+    partition_field: event_timestamp
+    schema: schemas/tradedata_schema.json
+    data_path: trades.json
+  - 
+    name: value
+    partition_field: when_timestamp
+    schema: schemas/valuedata_schema.json
+    data_path: valuedata.json
