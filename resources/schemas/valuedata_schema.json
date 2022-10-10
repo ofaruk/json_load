@@ -1,0 +1,26 @@
+[
+  {
+    "name": "tradedate",
+    "type": "INTEGER"
+  },
+  {
+    "name": "instrument_id",
+    "type": "STRING"
+  },
+  {
+    "name": "when_timestamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "gamma",
+    "type": "BIGNUMERIC"
+  },
+  {
+    "name": "vega",
+    "type": "BIGNUMERIC"
+  },
+  {
+    "name": "theta",
+    "type": "BIGNUMERIC"
+  }
+]
