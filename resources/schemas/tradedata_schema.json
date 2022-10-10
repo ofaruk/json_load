@@ -1,0 +1,14 @@
+[
+  {
+    "name": "tradedate",
+    "type": "INTEGER"
+  },
+  {
+    "name": "event_timestamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "instrument_id",
+    "type": "STRING"
+  }
+]
