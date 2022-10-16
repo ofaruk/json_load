@@ -31,6 +31,6 @@ class Loader:
             result = load_job.result()
         except Exception as exc:
             print(exc)
-        finally:
+        else:
             print(result)
 
